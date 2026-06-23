@@ -1,0 +1,84 @@
+/*-- Global / Layout Styles --- */
+
+.background {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.body {
+    background: rgb(50, 51, 51); 
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px 10%;
+    margin:0 5%;
+    outline: 2px solid white;
+}
+
+.picture{
+    display:block;
+    width:50%;
+    margin: auto;
+     }
+
+/*--- Shared Box Styles --- */
+
+.title,
+.description,
+.ingredients,
+.steps
+{
+    background-color: white;
+    text-align: center;
+    padding: 12px;
+    margin: 16px 5%;
+    outline-style: solid;
+    outline-width: 2px;
+    }
+
+/* --- Unique Box Styles --- */
+
+.title {
+    color:hotpink;
+    outline-color: hotpink;
+}
+
+.description {
+    color:aqua;
+    outline-color: aqua;
+}
+
+.ingredients{
+    color: greenyellow;
+    outline-color: greenyellow;
+}
+    
+.steps{
+    color: yellow;
+    outline-color: yellow;  
+}
+
+/* --- Link Styles --- */
+
+.links{
+    color: whitesmoke
+}
+
+/* unvisited link */
+a:link {
+  color: white
+}
+
+/* visited link */
+a:visited {
+  color: rgb(7, 247, 7);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
